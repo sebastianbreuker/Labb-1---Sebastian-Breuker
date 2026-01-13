@@ -39,7 +39,7 @@ Din totala summa är: 5836428677242
 
 ## Exempel
 
-![Exempelutskrift](docs/image_labb1.png)
+![Exempelutskrift](https://github.com/sebastianbreuker/Labb-1---Sebastian-Breuker/blob/master/Labb%201/docs/image_labb1.png)
 
 ## Köra projektet
 
