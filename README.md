@@ -1,45 +1,49 @@
 # Labb 1
 
-En enkel konsolapp som läser in en sträng och letar efter tal (siffror) som börjar och slutar med samma siffra. När ett sådant tal hittas skrivs hela inmatningen ut, där just den hittade delen markeras i rött. Alla hittade tal summeras och totalsumman skrivs ut.
+Detta Ã¤r min fÃ¶rsta labb i min utbildning .NET Utvecklare. (Efter cirka 3 veckor in i utbildningen)
+Det Ã¤r en konsolapp som ska skriva ut och kÃ¤nna av tal i en fÃ¶ljd efter det jag beskriver nedan.
+## Vad programmet gÃ¶r
 
-## Vad programmet gör
-
-1. Programmet ber dig skriva in en valfri textrad.
-2. Den går igenom texten och letar efter sekvenser som:
-   - börjar på en siffra,
-   - består av en sammanhängande följd av siffror,
-   - och där den **första** och **sista** siffran i följden är samma.
-3. För varje träff:
-   - skrivs hela strängen ut,
-   - tecknen som ingår i den matchade siffersekvensen färgas **röda**,
-   - och talet läggs till i en totalsumma.
-4. När hela texten har gåtts igenom skrivs totalsumman ut.
+1. Programmet ber dig skriva in en valfri textrad. (Exempelrad: 29535123p48723487597645723645
+2. Den gÃ¥r igenom texten och letar efter sekvenser som:
+   - bÃ¶rjar pÃ¥ en siffra,
+   - bestÃ¥r av en sammanhÃ¤ngande fÃ¶ljd av siffror,
+   - och dÃ¤r den **fÃ¶rsta** och **sista** siffran i fÃ¶ljden Ã¤r samma.
+3. FÃ¶r varje trÃ¤ff:
+   - skrivs hela strÃ¤ngen ut,
+   - tecknen som ingÃ¥r i den matchade siffersekvensen fÃ¤rgas **rÃ¶da**,
+   - och talet lÃ¤ggs till i en totalsumma.
+4. NÃ¤r hela texten har gÃ¥tts igenom skrivs totalsumman ut pÃ¥ alla rader som blivit markerade.
 
 ## Exempel
 
-Inmatning:
+Inmatning: 29535123p48723487597645723645
 
 ```
-abc1231xyz77q
 ```
 
-Programmet kan då hitta:
+Programmet kÃ¶r dÃ¥:
 
-- `1231` (börjar och slutar med `1`)
-- `77` (börjar och slutar med `7`)
+- `2953512` (bÃ¶rjar och slutar med `2`)
+- `535` (bÃ¶rjar och slutar med `7`)
+- Osv osv
 
 Och skriver sedan ut:
 
-- den markerade raden för varje hittat tal
+- den markerade raden fÃ¶r varje hittat tal
 - samt:
 
 ```
-Din totala summa är: 1308
+Din totala summa Ã¤r: 5836428677242
 ```
 
-## Köra projektet
+## Exempel
 
-Kör via .NET CLI i projektmappen:
+![Exempelutskrift](docs/image_labb1.png)
+
+## KÃ¶ra projektet
+
+KÃ¶r via Visual Studio
 
 ```bash
 dotnet run
