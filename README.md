@@ -1,10 +1,10 @@
 # Labb 1
 
-En enkel konsolapp som läser in en sträng och letar efter tal (siffror) som börjar och slutar med samma siffra. När ett sådant tal hittas skrivs hela inmatningen ut, där just den hittade delen markeras i rött. Alla hittade tal summeras och totalsumman skrivs ut.
-
+Detta är min första labb i min utbildning .NET Utvecklare. (Efter cirka 3 veckor in i utbildningen)
+Det är en konsolapp som ska skriva ut och känna av tal i en följd efter det jag beskriver nedan.
 ## Vad programmet gör
 
-1. Programmet ber dig skriva in en valfri textrad.
+1. Programmet ber dig skriva in en valfri textrad. (Exempelrad: 29535123p48723487597645723645
 2. Den går igenom texten och letar efter sekvenser som:
    - börjar på en siffra,
    - består av en sammanhängande följd av siffror,
@@ -13,20 +13,22 @@ En enkel konsolapp som läser in en sträng och letar efter tal (siffror) som b�
    - skrivs hela strängen ut,
    - tecknen som ingår i den matchade siffersekvensen färgas **röda**,
    - och talet läggs till i en totalsumma.
-4. När hela texten har gåtts igenom skrivs totalsumman ut.
+4. När hela texten har gåtts igenom skrivs totalsumman ut på alla rader som blivit markerade.
 
 ## Exempel
 
-Inmatning:
+Inmatning: 29535123p48723487597645723645
 
 ```
-abc1231xyz77q
+<img width="422" height="376" alt="image" src="https://github.com/user-attachments/assets/76c41643-6a6d-4bd0-93b9-1fe71b594afa" />
+
 ```
 
-Programmet kan då hitta:
+Programmet kör då:
 
-- `1231` (börjar och slutar med `1`)
-- `77` (börjar och slutar med `7`)
+- `2953512` (börjar och slutar med `2`)
+- `535` (börjar och slutar med `7`)
+- Osv osv
 
 Och skriver sedan ut:
 
@@ -34,12 +36,12 @@ Och skriver sedan ut:
 - samt:
 
 ```
-Din totala summa är: 1308
+Din totala summa är: 5836428677242
 ```
 
 ## Köra projektet
 
-Kör via .NET CLI i projektmappen:
+Kör via Visual Studio
 
 ```bash
 dotnet run
