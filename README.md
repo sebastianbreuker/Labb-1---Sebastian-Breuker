@@ -20,8 +20,6 @@ Det är en konsolapp som ska skriva ut och känna av tal i en följd efter det j
 Inmatning: 29535123p48723487597645723645
 
 ```
-<img width="422" height="376" alt="image" src="https://github.com/user-attachments/assets/76c41643-6a6d-4bd0-93b9-1fe71b594afa" />
-
 ```
 
 Programmet kör då:
@@ -38,6 +36,10 @@ Och skriver sedan ut:
 ```
 Din totala summa är: 5836428677242
 ```
+
+## Exempel
+
+![Exempelutskrift](docs/image_labb1.png)
 
 ## Köra projektet
 
